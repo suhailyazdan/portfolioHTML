@@ -76,15 +76,11 @@ body{
   font-size: 14px;
 }
 
-
-
-
-
 /* Right Panel */
 
 .dashboard{
-  height: calc(100vh - 170px);
-  overflow-y: scroll;
+  height: calc(100vh - 220px);
+  overflow-y: auto;
 }
 
 .header{
@@ -96,4 +92,26 @@ body{
   box-shadow: 0px 0px 13px 0px rgba(0,0,0,0.05);
 }
 
+.menu ul{
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+}
+
+.menu ul li{
+  list-style: none;
+}
+
+.menu ul li a{
+  padding: 5px 0;
+  margin: 0 10px;
+  text-decoration: none;
+  color: #3d5a80;
+  border-bottom: 1px solid #3d5a80;
+}
+
+.menu ul li a:hover{
+  padding-bottom: 15px;
+}
 
